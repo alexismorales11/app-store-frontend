@@ -7,6 +7,7 @@
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1200px;
+    cursor: revert;
 }
 .items-category-iphone {
     width: calc(25% - 40px);
@@ -57,4 +58,7 @@ a.items-category-iphone:hover .redirect-cta {
 .redirect-cta {
     opacity: 0;
     height: 0;
+}
+a.items-category-iphone:active {
+    color: #000;
 }
