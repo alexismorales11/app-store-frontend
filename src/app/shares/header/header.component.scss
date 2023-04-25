@@ -1,0 +1,32 @@
+header {
+    background-color: #373737;
+    box-shadow: 15px 15px 45px #3737377d;
+    border-radius: 0 0 5px 5px;
+}
+.header-container-general {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+}
+.container-logo-header img {
+    width: 100%;
+}
+.container-logo-header {
+    width: 100px;
+}
+.header-container-general ul {
+    display: flex;
+    list-style: none;
+}
+.header-container-general ul li {
+    margin: 0 10px;
+    color: #fff;
+}
+.header-container-general ul li a{
+    color: #fff;
+    text-decoration: none;
+}

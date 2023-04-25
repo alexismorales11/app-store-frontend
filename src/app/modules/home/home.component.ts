@@ -7,16 +7,5 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
-  
-  public username: any = [];
-  public name: string = '';
-  
-  constructor(){}
-
-  impresion(): void{
-    this.username = [{
-      name: 'alexis'
-    }]
-  }
 
 }
