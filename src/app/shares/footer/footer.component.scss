@@ -23,3 +23,45 @@ footer.class-footer-tag {
     padding-right: 10px;
     padding-top: 25px;
 }
+.row1-colum2-container-general ul,
+.row1-colum3-container-general ul{
+    list-style: none;
+    margin-top: 15px;
+}
+.row1-colum2-container-general ul li,
+.row1-colum3-container-general ul li{
+        padding-bottom: 5px;
+}
+.row1-colum4-container-general p {
+    padding: 20px 0;
+    line-height: 25px;
+}
+.container-input-email{
+    margin-bottom: 20px;
+}
+.container-input-email .error{
+    color: red;
+}
+.container-input-email input {
+    width: calc(100% - 20px);
+    border-radius: 10px;
+    min-height: 40px;
+    display: flex;
+    text-align: center;
+    padding: 0 10px;
+}
+.container-input-email input::placeholder {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.container-btn button {
+    width: 100%;
+    min-height: 40px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.3803921569);
+    font-weight: 900;
+    cursor: pointer;
+}
+.container-btn button:hover {
+    color: #fff;
+}

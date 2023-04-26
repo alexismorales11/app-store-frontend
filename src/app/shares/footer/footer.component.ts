@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import {FormControl, Validators, ReactiveFormsModule} from '@angular/forms';
 
 @Component({
   selector: 'app-footer',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent {
+
+  emailFormControl = new FormControl('', [Validators.required, Validators.email]);
 
 }

@@ -3,7 +3,8 @@
         <div class="row1-container-general">
             <div class="row1-colum1-container-general">
                 <div class="row1-colum1-row1-container-img">
-                    <img src="https://cdn.shopify.com/s/files/1/0101/2522/files/logo_ishop2_400x.png?v=1614815192" alt="">
+                    <img src="https://cdn.shopify.com/s/files/1/0101/2522/files/logo_ishop2_400x.png?v=1614815192"
+                        alt="">
                 </div>
                 <div class="row1-colum1-row2-container-icons">
                     <i class="fa-brands fa-twitter"></i>
@@ -34,7 +35,13 @@
                 <p>Suscríbete para obtener la información más reciente sobre nuevos productos y promociones.</p>
                 <div class="container-suscrip1">
                     <div class="container-input-email">
-                        <input type="email" placeholder="Correo electronico*">
+                        <input type="email" matInput [formControl]="emailFormControl" placeholder="Correo electronico*">
+                        <div class="error" *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+                            Please enter a valid email address
+                        </div>
+                        <div class="error" *ngIf="emailFormControl.hasError('required')">
+                            Email is <strong>required</strong>
+                        </div>
                     </div>
                     <div class="container-btn">
                         <button>Registrarse</button>
