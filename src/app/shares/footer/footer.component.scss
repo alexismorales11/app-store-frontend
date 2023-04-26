@@ -1,0 +1,25 @@
+footer.class-footer-tag {
+    background-color: #f5f5f7;
+}
+.container-footer-general {
+    padding: 30px 15px;
+}
+.row1-container-general {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.row1-colum4-container-general {
+    width: calc(25% - 10px);
+}
+.row1-colum1-row1-container-img img {
+    width: 100%;
+}
+.row1-colum1-row1-container-img {
+    width: 280px;
+}
+.row1-colum1-row2-container-icons i {
+    padding-right: 10px;
+    padding-top: 25px;
+}

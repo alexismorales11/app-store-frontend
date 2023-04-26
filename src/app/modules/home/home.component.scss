@@ -1,5 +1,5 @@
 .class-home-general{
-    padding: 30px 0;
+    padding: 30px 15px;
 }
 .container-category-iphone {
     display: flex;
@@ -61,4 +61,22 @@ a.items-category-iphone:hover .redirect-cta {
 }
 a.items-category-iphone:active {
     color: #000;
+}
+
+@media only all  and (max-width: 1024px){
+    .items-category-iphone {
+        width: calc(33.3% - 40px);
+    }
+}
+
+@media only all  and (max-width: 650px){
+    .items-category-iphone {
+        width: calc(50% - 40px);
+    }
+}
+
+@media only all  and (max-width: 425px){
+    .items-category-iphone {
+        width: 100%;
+    }
 }
